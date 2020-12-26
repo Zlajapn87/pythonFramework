@@ -3,6 +3,7 @@ import configparser
 config = configparser.RawConfigParser()
 config.read('.\\Configurations\\config.ini')
 
+
 class ReadConfig():
     @staticmethod
     def getApplicationURL():
@@ -18,4 +19,3 @@ class ReadConfig():
     def getUserPassword():
         password = config.get('common info', 'password')
         return password
-
