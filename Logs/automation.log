@@ -1,0 +1,226 @@
+12/24/2020 05:08:03 AM: INFO: ************** Test_001_Login **************
+12/24/2020 05:08:03 AM: INFO: ************** Verifying Home Page Title **************
+12/24/2020 05:08:10 AM: INFO: ************** Home page title test passed **************
+12/24/2020 05:08:13 AM: INFO: ************** Verifying Login test **************
+12/24/2020 05:08:20 AM: INFO: ************** Login test passed **************
+12/25/2020 11:07:50 PM: INFO: ************** Test_001_Login **************
+12/25/2020 11:07:50 PM: INFO: ************** Verifying Home Page Title **************
+12/25/2020 11:07:57 PM: INFO: ************** Home page title test passed **************
+12/25/2020 11:08:01 PM: INFO: ************** Verifying Login test **************
+12/25/2020 11:08:11 PM: INFO: ************** Login test passed **************
+12/25/2020 11:26:32 PM: INFO: ************** Verifying Login test **************
+12/25/2020 11:26:42 PM: INFO: ************** Login test passed **************
+12/25/2020 11:26:52 PM: INFO: ************** Test_001_Login **************
+12/25/2020 11:26:52 PM: INFO: ************** Verifying Home Page Title **************
+12/25/2020 11:26:57 PM: INFO: ************** Home page title test passed **************
+12/25/2020 11:27:02 PM: INFO: ************** Verifying Login test **************
+12/25/2020 11:27:10 PM: INFO: ************** Login test passed **************
+12/25/2020 11:31:52 PM: INFO: ************** Test_001_Login **************
+12/25/2020 11:31:52 PM: INFO: ************** Verifying Home Page Title **************
+12/25/2020 11:31:52 PM: INFO: ************** Verifying Login test **************
+12/25/2020 11:31:57 PM: INFO: ************** Home page title test passed **************
+12/25/2020 11:32:04 PM: INFO: ************** Login test passed **************
+12/25/2020 11:39:25 PM: INFO: ************** Verifying Login test **************
+12/25/2020 11:39:26 PM: INFO: ************** Test_001_Login **************
+12/25/2020 11:39:26 PM: INFO: ************** Verifying Home Page Title **************
+12/25/2020 11:39:33 PM: INFO: ************** Home page title test passed **************
+12/25/2020 11:39:35 PM: INFO: ************** Login test passed **************
+12/25/2020 11:41:01 PM: INFO: ************** Verifying Login test **************
+12/25/2020 11:41:01 PM: INFO: ************** Test_001_Login **************
+12/25/2020 11:41:01 PM: INFO: ************** Verifying Home Page Title **************
+12/25/2020 11:41:07 PM: INFO: ************** Home page title test passed **************
+12/25/2020 11:41:10 PM: INFO: ************** Login test passed **************
+12/25/2020 11:44:45 PM: DEBUG: POST http://127.0.0.1:18260/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+12/25/2020 11:44:45 PM: DEBUG: Starting new HTTP connection (1): 127.0.0.1:18260
+12/25/2020 11:44:45 PM: DEBUG: POST http://127.0.0.1:18261/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+12/25/2020 11:44:45 PM: DEBUG: Starting new HTTP connection (1): 127.0.0.1:18261
+12/25/2020 11:44:48 PM: DEBUG: http://127.0.0.1:18260 "POST /session HTTP/1.1" 200 718
+12/25/2020 11:44:48 PM: DEBUG: Finished Request
+12/25/2020 11:44:48 PM: INFO: ************** Test_001_Login **************
+12/25/2020 11:44:48 PM: INFO: ************** Verifying Home Page Title **************
+12/25/2020 11:44:48 PM: DEBUG: POST http://127.0.0.1:18260/session/8024bca4e24e6764deb5095e3c766adf/url {"url": "https://admin-demo.nopcommerce.com/"}
+12/25/2020 11:44:48 PM: DEBUG: http://127.0.0.1:18261 "POST /session HTTP/1.1" 200 717
+12/25/2020 11:44:48 PM: DEBUG: Finished Request
+12/25/2020 11:44:48 PM: INFO: ************** Verifying Login test **************
+12/25/2020 11:44:48 PM: DEBUG: POST http://127.0.0.1:18261/session/f6aa157f76e55a5994c44d9b24f06532/url {"url": "https://admin-demo.nopcommerce.com/"}
+12/25/2020 11:44:51 PM: DEBUG: http://127.0.0.1:18260 "POST /session/8024bca4e24e6764deb5095e3c766adf/url HTTP/1.1" 200 14
+12/25/2020 11:44:51 PM: DEBUG: http://127.0.0.1:18261 "POST /session/f6aa157f76e55a5994c44d9b24f06532/url HTTP/1.1" 200 14
+12/25/2020 11:44:51 PM: DEBUG: Finished Request
+12/25/2020 11:44:51 PM: DEBUG: GET http://127.0.0.1:18260/session/8024bca4e24e6764deb5095e3c766adf/title {}
+12/25/2020 11:44:51 PM: DEBUG: Finished Request
+12/25/2020 11:44:51 PM: DEBUG: POST http://127.0.0.1:18261/session/f6aa157f76e55a5994c44d9b24f06532/element {"using": "css selector", "value": "[id=\"Email\"]"}
+12/25/2020 11:44:51 PM: DEBUG: http://127.0.0.1:18260 "GET /session/8024bca4e24e6764deb5095e3c766adf/title HTTP/1.1" 200 29
+12/25/2020 11:44:51 PM: DEBUG: Finished Request
+12/25/2020 11:44:51 PM: DEBUG: DELETE http://127.0.0.1:18260/session/8024bca4e24e6764deb5095e3c766adf/window {}
+12/25/2020 11:44:51 PM: DEBUG: http://127.0.0.1:18261 "POST /session/f6aa157f76e55a5994c44d9b24f06532/element HTTP/1.1" 200 88
+12/25/2020 11:44:51 PM: DEBUG: Finished Request
+12/25/2020 11:44:51 PM: DEBUG: POST http://127.0.0.1:18261/session/f6aa157f76e55a5994c44d9b24f06532/element/7626b7d9-34fa-40ba-af1c-7ad21529755b/clear {"id": "7626b7d9-34fa-40ba-af1c-7ad21529755b"}
+12/25/2020 11:44:51 PM: DEBUG: http://127.0.0.1:18261 "POST /session/f6aa157f76e55a5994c44d9b24f06532/element/7626b7d9-34fa-40ba-af1c-7ad21529755b/clear HTTP/1.1" 200 14
+12/25/2020 11:44:51 PM: DEBUG: Finished Request
+12/25/2020 11:44:51 PM: DEBUG: POST http://127.0.0.1:18261/session/f6aa157f76e55a5994c44d9b24f06532/element {"using": "css selector", "value": "[id=\"Email\"]"}
+12/25/2020 11:44:51 PM: DEBUG: http://127.0.0.1:18261 "POST /session/f6aa157f76e55a5994c44d9b24f06532/element HTTP/1.1" 200 88
+12/25/2020 11:44:51 PM: DEBUG: Finished Request
+12/25/2020 11:44:51 PM: DEBUG: POST http://127.0.0.1:18261/session/f6aa157f76e55a5994c44d9b24f06532/element/7626b7d9-34fa-40ba-af1c-7ad21529755b/value {"text": "admin@yourstore.com", "value": ["a", "d", "m", "i", "n", "@", "y", "o", "u", "r", "s", "t", "o", "r", "e", ".", "c", "o", "m"], "id": "7626b7d9-34fa-40ba-af1c-7ad21529755b"}
+12/25/2020 11:44:51 PM: DEBUG: http://127.0.0.1:18261 "POST /session/f6aa157f76e55a5994c44d9b24f06532/element/7626b7d9-34fa-40ba-af1c-7ad21529755b/value HTTP/1.1" 200 14
+12/25/2020 11:44:51 PM: DEBUG: Finished Request
+12/25/2020 11:44:51 PM: DEBUG: POST http://127.0.0.1:18261/session/f6aa157f76e55a5994c44d9b24f06532/element {"using": "css selector", "value": "[id=\"Password\"]"}
+12/25/2020 11:44:51 PM: DEBUG: http://127.0.0.1:18261 "POST /session/f6aa157f76e55a5994c44d9b24f06532/element HTTP/1.1" 200 88
+12/25/2020 11:44:51 PM: DEBUG: Finished Request
+12/25/2020 11:44:51 PM: DEBUG: POST http://127.0.0.1:18261/session/f6aa157f76e55a5994c44d9b24f06532/element/1406aed9-9519-45fa-9431-30b58d23f8da/clear {"id": "1406aed9-9519-45fa-9431-30b58d23f8da"}
+12/25/2020 11:44:51 PM: DEBUG: http://127.0.0.1:18261 "POST /session/f6aa157f76e55a5994c44d9b24f06532/element/1406aed9-9519-45fa-9431-30b58d23f8da/clear HTTP/1.1" 200 14
+12/25/2020 11:44:51 PM: DEBUG: Finished Request
+12/25/2020 11:44:51 PM: DEBUG: POST http://127.0.0.1:18261/session/f6aa157f76e55a5994c44d9b24f06532/element {"using": "css selector", "value": "[id=\"Password\"]"}
+12/25/2020 11:44:51 PM: DEBUG: http://127.0.0.1:18261 "POST /session/f6aa157f76e55a5994c44d9b24f06532/element HTTP/1.1" 200 88
+12/25/2020 11:44:51 PM: DEBUG: Finished Request
+12/25/2020 11:44:51 PM: DEBUG: POST http://127.0.0.1:18261/session/f6aa157f76e55a5994c44d9b24f06532/element/1406aed9-9519-45fa-9431-30b58d23f8da/value {"text": "admin", "value": ["a", "d", "m", "i", "n"], "id": "1406aed9-9519-45fa-9431-30b58d23f8da"}
+12/25/2020 11:44:51 PM: DEBUG: http://127.0.0.1:18261 "POST /session/f6aa157f76e55a5994c44d9b24f06532/element/1406aed9-9519-45fa-9431-30b58d23f8da/value HTTP/1.1" 200 14
+12/25/2020 11:44:51 PM: DEBUG: Finished Request
+12/25/2020 11:44:51 PM: DEBUG: POST http://127.0.0.1:18261/session/f6aa157f76e55a5994c44d9b24f06532/element {"using": "xpath", "value": "//input[@value='Log in']"}
+12/25/2020 11:44:51 PM: DEBUG: http://127.0.0.1:18261 "POST /session/f6aa157f76e55a5994c44d9b24f06532/element HTTP/1.1" 200 88
+12/25/2020 11:44:51 PM: DEBUG: Finished Request
+12/25/2020 11:44:51 PM: DEBUG: POST http://127.0.0.1:18261/session/f6aa157f76e55a5994c44d9b24f06532/element/42c60f87-a046-43f2-958d-67afa6900146/click {"id": "42c60f87-a046-43f2-958d-67afa6900146"}
+12/25/2020 11:44:52 PM: DEBUG: http://127.0.0.1:18260 "DELETE /session/8024bca4e24e6764deb5095e3c766adf/window HTTP/1.1" 200 12
+12/25/2020 11:44:52 PM: DEBUG: Finished Request
+12/25/2020 11:44:52 PM: INFO: ************** Home page title test passed **************
+12/25/2020 11:44:58 PM: DEBUG: http://127.0.0.1:18261 "POST /session/f6aa157f76e55a5994c44d9b24f06532/element/42c60f87-a046-43f2-958d-67afa6900146/click HTTP/1.1" 200 14
+12/25/2020 11:44:58 PM: DEBUG: Finished Request
+12/25/2020 11:44:58 PM: DEBUG: GET http://127.0.0.1:18261/session/f6aa157f76e55a5994c44d9b24f06532/title {}
+12/25/2020 11:44:58 PM: DEBUG: http://127.0.0.1:18261 "GET /session/f6aa157f76e55a5994c44d9b24f06532/title HTTP/1.1" 200 50
+12/25/2020 11:44:58 PM: DEBUG: Finished Request
+12/25/2020 11:44:58 PM: DEBUG: DELETE http://127.0.0.1:18261/session/f6aa157f76e55a5994c44d9b24f06532/window {}
+12/25/2020 11:44:58 PM: DEBUG: http://127.0.0.1:18261 "DELETE /session/f6aa157f76e55a5994c44d9b24f06532/window HTTP/1.1" 200 12
+12/25/2020 11:44:58 PM: DEBUG: Finished Request
+12/25/2020 11:44:58 PM: INFO: ************** Login test passed **************
+12/25/2020 11:48:18 PM: DEBUG: POST http://127.0.0.1:18352/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+12/25/2020 11:48:18 PM: DEBUG: Starting new HTTP connection (1): 127.0.0.1:18352
+12/25/2020 11:48:20 PM: DEBUG: http://127.0.0.1:18352 "POST /session HTTP/1.1" 200 717
+12/25/2020 11:48:20 PM: DEBUG: Finished Request
+12/25/2020 11:48:20 PM: INFO: ************** Test_001_Login **************
+12/25/2020 11:48:20 PM: INFO: ************** Verifying Home Page Title **************
+12/25/2020 11:48:20 PM: DEBUG: POST http://127.0.0.1:18352/session/7563d027e2789e40ce4a140364f39111/url {"url": "https://admin-demo.nopcommerce.com/"}
+12/25/2020 11:48:23 PM: DEBUG: http://127.0.0.1:18352 "POST /session/7563d027e2789e40ce4a140364f39111/url HTTP/1.1" 200 14
+12/25/2020 11:48:23 PM: DEBUG: Finished Request
+12/25/2020 11:48:23 PM: DEBUG: GET http://127.0.0.1:18352/session/7563d027e2789e40ce4a140364f39111/title {}
+12/25/2020 11:48:23 PM: DEBUG: http://127.0.0.1:18352 "GET /session/7563d027e2789e40ce4a140364f39111/title HTTP/1.1" 200 29
+12/25/2020 11:48:23 PM: DEBUG: Finished Request
+12/25/2020 11:48:23 PM: DEBUG: DELETE http://127.0.0.1:18352/session/7563d027e2789e40ce4a140364f39111/window {}
+12/25/2020 11:48:24 PM: DEBUG: http://127.0.0.1:18352 "DELETE /session/7563d027e2789e40ce4a140364f39111/window HTTP/1.1" 200 12
+12/25/2020 11:48:24 PM: DEBUG: Finished Request
+12/25/2020 11:48:24 PM: INFO: ************** Home page title test passed **************
+12/25/2020 11:48:24 PM: DEBUG: POST http://127.0.0.1:18375/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+12/25/2020 11:48:24 PM: DEBUG: Starting new HTTP connection (1): 127.0.0.1:18375
+12/25/2020 11:48:27 PM: DEBUG: http://127.0.0.1:18375 "POST /session HTTP/1.1" 200 718
+12/25/2020 11:48:27 PM: DEBUG: Finished Request
+12/25/2020 11:48:27 PM: INFO: ************** Verifying Login test **************
+12/25/2020 11:48:27 PM: DEBUG: POST http://127.0.0.1:18375/session/396c715b14740ee16346e0a7f71cbc5b/url {"url": "https://admin-demo.nopcommerce.com/"}
+12/25/2020 11:48:33 PM: DEBUG: http://127.0.0.1:18375 "POST /session/396c715b14740ee16346e0a7f71cbc5b/url HTTP/1.1" 200 14
+12/25/2020 11:48:33 PM: DEBUG: Finished Request
+12/25/2020 11:48:33 PM: DEBUG: POST http://127.0.0.1:18375/session/396c715b14740ee16346e0a7f71cbc5b/element {"using": "css selector", "value": "[id=\"Email\"]"}
+12/25/2020 11:48:33 PM: DEBUG: http://127.0.0.1:18375 "POST /session/396c715b14740ee16346e0a7f71cbc5b/element HTTP/1.1" 200 88
+12/25/2020 11:48:33 PM: DEBUG: Finished Request
+12/25/2020 11:48:33 PM: DEBUG: POST http://127.0.0.1:18375/session/396c715b14740ee16346e0a7f71cbc5b/element/d87185af-ccbc-4400-93c4-9acc52fe6a49/clear {"id": "d87185af-ccbc-4400-93c4-9acc52fe6a49"}
+12/25/2020 11:48:33 PM: DEBUG: http://127.0.0.1:18375 "POST /session/396c715b14740ee16346e0a7f71cbc5b/element/d87185af-ccbc-4400-93c4-9acc52fe6a49/clear HTTP/1.1" 200 14
+12/25/2020 11:48:33 PM: DEBUG: Finished Request
+12/25/2020 11:48:33 PM: DEBUG: POST http://127.0.0.1:18375/session/396c715b14740ee16346e0a7f71cbc5b/element {"using": "css selector", "value": "[id=\"Email\"]"}
+12/25/2020 11:48:33 PM: DEBUG: http://127.0.0.1:18375 "POST /session/396c715b14740ee16346e0a7f71cbc5b/element HTTP/1.1" 200 88
+12/25/2020 11:48:33 PM: DEBUG: Finished Request
+12/25/2020 11:48:33 PM: DEBUG: POST http://127.0.0.1:18375/session/396c715b14740ee16346e0a7f71cbc5b/element/d87185af-ccbc-4400-93c4-9acc52fe6a49/value {"text": "admin@yourstore.com", "value": ["a", "d", "m", "i", "n", "@", "y", "o", "u", "r", "s", "t", "o", "r", "e", ".", "c", "o", "m"], "id": "d87185af-ccbc-4400-93c4-9acc52fe6a49"}
+12/25/2020 11:48:33 PM: DEBUG: http://127.0.0.1:18375 "POST /session/396c715b14740ee16346e0a7f71cbc5b/element/d87185af-ccbc-4400-93c4-9acc52fe6a49/value HTTP/1.1" 200 14
+12/25/2020 11:48:33 PM: DEBUG: Finished Request
+12/25/2020 11:48:33 PM: DEBUG: POST http://127.0.0.1:18375/session/396c715b14740ee16346e0a7f71cbc5b/element {"using": "css selector", "value": "[id=\"Password\"]"}
+12/25/2020 11:48:33 PM: DEBUG: http://127.0.0.1:18375 "POST /session/396c715b14740ee16346e0a7f71cbc5b/element HTTP/1.1" 200 88
+12/25/2020 11:48:33 PM: DEBUG: Finished Request
+12/25/2020 11:48:33 PM: DEBUG: POST http://127.0.0.1:18375/session/396c715b14740ee16346e0a7f71cbc5b/element/a46ee9ef-2996-4544-b066-55fdddefabb8/clear {"id": "a46ee9ef-2996-4544-b066-55fdddefabb8"}
+12/25/2020 11:48:33 PM: DEBUG: http://127.0.0.1:18375 "POST /session/396c715b14740ee16346e0a7f71cbc5b/element/a46ee9ef-2996-4544-b066-55fdddefabb8/clear HTTP/1.1" 200 14
+12/25/2020 11:48:33 PM: DEBUG: Finished Request
+12/25/2020 11:48:33 PM: DEBUG: POST http://127.0.0.1:18375/session/396c715b14740ee16346e0a7f71cbc5b/element {"using": "css selector", "value": "[id=\"Password\"]"}
+12/25/2020 11:48:33 PM: DEBUG: http://127.0.0.1:18375 "POST /session/396c715b14740ee16346e0a7f71cbc5b/element HTTP/1.1" 200 88
+12/25/2020 11:48:33 PM: DEBUG: Finished Request
+12/25/2020 11:48:33 PM: DEBUG: POST http://127.0.0.1:18375/session/396c715b14740ee16346e0a7f71cbc5b/element/a46ee9ef-2996-4544-b066-55fdddefabb8/value {"text": "admin", "value": ["a", "d", "m", "i", "n"], "id": "a46ee9ef-2996-4544-b066-55fdddefabb8"}
+12/25/2020 11:48:33 PM: DEBUG: http://127.0.0.1:18375 "POST /session/396c715b14740ee16346e0a7f71cbc5b/element/a46ee9ef-2996-4544-b066-55fdddefabb8/value HTTP/1.1" 200 14
+12/25/2020 11:48:33 PM: DEBUG: Finished Request
+12/25/2020 11:48:33 PM: DEBUG: POST http://127.0.0.1:18375/session/396c715b14740ee16346e0a7f71cbc5b/element {"using": "xpath", "value": "//input[@value='Log in']"}
+12/25/2020 11:48:33 PM: DEBUG: http://127.0.0.1:18375 "POST /session/396c715b14740ee16346e0a7f71cbc5b/element HTTP/1.1" 200 88
+12/25/2020 11:48:33 PM: DEBUG: Finished Request
+12/25/2020 11:48:33 PM: DEBUG: POST http://127.0.0.1:18375/session/396c715b14740ee16346e0a7f71cbc5b/element/118a5e28-1290-4cf3-a280-f6aff43cdc23/click {"id": "118a5e28-1290-4cf3-a280-f6aff43cdc23"}
+12/25/2020 11:48:38 PM: DEBUG: http://127.0.0.1:18375 "POST /session/396c715b14740ee16346e0a7f71cbc5b/element/118a5e28-1290-4cf3-a280-f6aff43cdc23/click HTTP/1.1" 200 14
+12/25/2020 11:48:38 PM: DEBUG: Finished Request
+12/25/2020 11:48:38 PM: DEBUG: GET http://127.0.0.1:18375/session/396c715b14740ee16346e0a7f71cbc5b/title {}
+12/25/2020 11:48:38 PM: DEBUG: http://127.0.0.1:18375 "GET /session/396c715b14740ee16346e0a7f71cbc5b/title HTTP/1.1" 200 50
+12/25/2020 11:48:38 PM: DEBUG: Finished Request
+12/25/2020 11:48:38 PM: DEBUG: DELETE http://127.0.0.1:18375/session/396c715b14740ee16346e0a7f71cbc5b/window {}
+12/25/2020 11:48:38 PM: DEBUG: http://127.0.0.1:18375 "DELETE /session/396c715b14740ee16346e0a7f71cbc5b/window HTTP/1.1" 200 12
+12/25/2020 11:48:38 PM: DEBUG: Finished Request
+12/25/2020 11:48:38 PM: INFO: ************** Login test passed **************
+12/25/2020 11:49:12 PM: DEBUG: POST http://127.0.0.1:18413/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+12/25/2020 11:49:12 PM: DEBUG: Starting new HTTP connection (1): 127.0.0.1:18413
+12/25/2020 11:49:15 PM: DEBUG: http://127.0.0.1:18413 "POST /session HTTP/1.1" 200 716
+12/25/2020 11:49:15 PM: DEBUG: Finished Request
+12/25/2020 11:49:15 PM: INFO: ************** Test_001_Login **************
+12/25/2020 11:49:15 PM: INFO: ************** Verifying Home Page Title **************
+12/25/2020 11:49:15 PM: DEBUG: POST http://127.0.0.1:18413/session/75cb52958df38cd39b434161f378ead3/url {"url": "https://admin-demo.nopcommerce.com/"}
+12/25/2020 11:49:22 PM: DEBUG: http://127.0.0.1:18413 "POST /session/75cb52958df38cd39b434161f378ead3/url HTTP/1.1" 200 14
+12/25/2020 11:49:22 PM: DEBUG: Finished Request
+12/25/2020 11:49:22 PM: DEBUG: GET http://127.0.0.1:18413/session/75cb52958df38cd39b434161f378ead3/title {}
+12/25/2020 11:49:22 PM: DEBUG: http://127.0.0.1:18413 "GET /session/75cb52958df38cd39b434161f378ead3/title HTTP/1.1" 200 29
+12/25/2020 11:49:22 PM: DEBUG: Finished Request
+12/25/2020 11:49:23 PM: DEBUG: POST http://127.0.0.1:18436/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+12/25/2020 11:49:23 PM: DEBUG: Starting new HTTP connection (1): 127.0.0.1:18436
+12/25/2020 11:49:25 PM: DEBUG: http://127.0.0.1:18436 "POST /session HTTP/1.1" 200 716
+12/25/2020 11:49:25 PM: DEBUG: Finished Request
+12/25/2020 11:49:25 PM: INFO: ************** Verifying Login test **************
+12/25/2020 11:49:25 PM: DEBUG: POST http://127.0.0.1:18436/session/6cf64360e0af55eff53b910428d3dd77/url {"url": "https://admin-demo.nopcommerce.com/"}
+12/25/2020 11:49:33 PM: DEBUG: http://127.0.0.1:18436 "POST /session/6cf64360e0af55eff53b910428d3dd77/url HTTP/1.1" 200 14
+12/25/2020 11:49:33 PM: DEBUG: Finished Request
+12/25/2020 11:49:33 PM: DEBUG: POST http://127.0.0.1:18436/session/6cf64360e0af55eff53b910428d3dd77/element {"using": "css selector", "value": "[id=\"Email\"]"}
+12/25/2020 11:49:33 PM: DEBUG: http://127.0.0.1:18436 "POST /session/6cf64360e0af55eff53b910428d3dd77/element HTTP/1.1" 200 88
+12/25/2020 11:49:33 PM: DEBUG: Finished Request
+12/25/2020 11:49:33 PM: DEBUG: POST http://127.0.0.1:18436/session/6cf64360e0af55eff53b910428d3dd77/element/aa532862-e2ce-471a-980f-86f800f003d0/clear {"id": "aa532862-e2ce-471a-980f-86f800f003d0"}
+12/25/2020 11:49:33 PM: DEBUG: http://127.0.0.1:18436 "POST /session/6cf64360e0af55eff53b910428d3dd77/element/aa532862-e2ce-471a-980f-86f800f003d0/clear HTTP/1.1" 200 14
+12/25/2020 11:49:33 PM: DEBUG: Finished Request
+12/25/2020 11:49:33 PM: DEBUG: POST http://127.0.0.1:18436/session/6cf64360e0af55eff53b910428d3dd77/element {"using": "css selector", "value": "[id=\"Email\"]"}
+12/25/2020 11:49:33 PM: DEBUG: http://127.0.0.1:18436 "POST /session/6cf64360e0af55eff53b910428d3dd77/element HTTP/1.1" 200 88
+12/25/2020 11:49:33 PM: DEBUG: Finished Request
+12/25/2020 11:49:33 PM: DEBUG: POST http://127.0.0.1:18436/session/6cf64360e0af55eff53b910428d3dd77/element/aa532862-e2ce-471a-980f-86f800f003d0/value {"text": "admin@yourstore.com", "value": ["a", "d", "m", "i", "n", "@", "y", "o", "u", "r", "s", "t", "o", "r", "e", ".", "c", "o", "m"], "id": "aa532862-e2ce-471a-980f-86f800f003d0"}
+12/25/2020 11:49:33 PM: DEBUG: http://127.0.0.1:18436 "POST /session/6cf64360e0af55eff53b910428d3dd77/element/aa532862-e2ce-471a-980f-86f800f003d0/value HTTP/1.1" 200 14
+12/25/2020 11:49:33 PM: DEBUG: Finished Request
+12/25/2020 11:49:33 PM: DEBUG: POST http://127.0.0.1:18436/session/6cf64360e0af55eff53b910428d3dd77/element {"using": "css selector", "value": "[id=\"Password\"]"}
+12/25/2020 11:49:33 PM: DEBUG: http://127.0.0.1:18436 "POST /session/6cf64360e0af55eff53b910428d3dd77/element HTTP/1.1" 200 88
+12/25/2020 11:49:33 PM: DEBUG: Finished Request
+12/25/2020 11:49:33 PM: DEBUG: POST http://127.0.0.1:18436/session/6cf64360e0af55eff53b910428d3dd77/element/bd8c50bb-740d-418d-9e07-b673a204783f/clear {"id": "bd8c50bb-740d-418d-9e07-b673a204783f"}
+12/25/2020 11:49:33 PM: DEBUG: http://127.0.0.1:18436 "POST /session/6cf64360e0af55eff53b910428d3dd77/element/bd8c50bb-740d-418d-9e07-b673a204783f/clear HTTP/1.1" 200 14
+12/25/2020 11:49:33 PM: DEBUG: Finished Request
+12/25/2020 11:49:33 PM: DEBUG: POST http://127.0.0.1:18436/session/6cf64360e0af55eff53b910428d3dd77/element {"using": "css selector", "value": "[id=\"Password\"]"}
+12/25/2020 11:49:33 PM: DEBUG: http://127.0.0.1:18436 "POST /session/6cf64360e0af55eff53b910428d3dd77/element HTTP/1.1" 200 88
+12/25/2020 11:49:33 PM: DEBUG: Finished Request
+12/25/2020 11:49:33 PM: DEBUG: POST http://127.0.0.1:18436/session/6cf64360e0af55eff53b910428d3dd77/element/bd8c50bb-740d-418d-9e07-b673a204783f/value {"text": "admin", "value": ["a", "d", "m", "i", "n"], "id": "bd8c50bb-740d-418d-9e07-b673a204783f"}
+12/25/2020 11:49:33 PM: DEBUG: http://127.0.0.1:18436 "POST /session/6cf64360e0af55eff53b910428d3dd77/element/bd8c50bb-740d-418d-9e07-b673a204783f/value HTTP/1.1" 200 14
+12/25/2020 11:49:33 PM: DEBUG: Finished Request
+12/25/2020 11:49:33 PM: DEBUG: POST http://127.0.0.1:18436/session/6cf64360e0af55eff53b910428d3dd77/element {"using": "xpath", "value": "//input[@value='Log in']"}
+12/25/2020 11:49:33 PM: DEBUG: http://127.0.0.1:18436 "POST /session/6cf64360e0af55eff53b910428d3dd77/element HTTP/1.1" 200 88
+12/25/2020 11:49:33 PM: DEBUG: Finished Request
+12/25/2020 11:49:33 PM: DEBUG: POST http://127.0.0.1:18436/session/6cf64360e0af55eff53b910428d3dd77/element/c5844f14-0acb-4ce6-ac8b-5ffb3a0f1ba7/click {"id": "c5844f14-0acb-4ce6-ac8b-5ffb3a0f1ba7"}
+12/25/2020 11:49:38 PM: DEBUG: http://127.0.0.1:18436 "POST /session/6cf64360e0af55eff53b910428d3dd77/element/c5844f14-0acb-4ce6-ac8b-5ffb3a0f1ba7/click HTTP/1.1" 200 14
+12/25/2020 11:49:38 PM: DEBUG: Finished Request
+12/25/2020 11:49:38 PM: DEBUG: GET http://127.0.0.1:18436/session/6cf64360e0af55eff53b910428d3dd77/title {}
+12/25/2020 11:49:38 PM: DEBUG: http://127.0.0.1:18436 "GET /session/6cf64360e0af55eff53b910428d3dd77/title HTTP/1.1" 200 50
+12/25/2020 11:49:38 PM: DEBUG: Finished Request
+12/25/2020 11:49:38 PM: DEBUG: DELETE http://127.0.0.1:18436/session/6cf64360e0af55eff53b910428d3dd77/window {}
+12/25/2020 11:49:38 PM: DEBUG: http://127.0.0.1:18436 "DELETE /session/6cf64360e0af55eff53b910428d3dd77/window HTTP/1.1" 200 12
+12/25/2020 11:49:38 PM: DEBUG: Finished Request
+12/25/2020 11:49:38 PM: INFO: ************** Login test passed **************
+12/26/2020 12:18:07 AM: INFO: ************** Verifying Login test **************
+12/26/2020 12:18:08 AM: INFO: ************** Test_001_Login **************
+12/26/2020 12:18:08 AM: INFO: ************** Verifying Home Page Title **************
+12/26/2020 12:18:11 AM: INFO: ************** Home page title test passed **************
+12/26/2020 12:18:18 AM: INFO: ************** Login test passed **************
+12/26/2020 09:55:10 AM: INFO: ************** Test_001_Login **************
+12/26/2020 09:55:10 AM: INFO: ************** Verifying Home Page Title **************
+12/26/2020 09:55:16 AM: INFO: ************** Home page title test passed **************
+12/26/2020 09:55:19 AM: INFO: ************** Verifying Login test **************
+12/26/2020 09:55:32 AM: INFO: ************** Login test passed **************
+12/26/2020 11:39:31 AM: INFO: ************** Test_001_Login **************
+12/26/2020 11:39:31 AM: INFO: ************** Verifying Home Page Title **************
+12/26/2020 11:39:37 AM: INFO: ************** Home page title test passed **************
+12/26/2020 11:39:40 AM: INFO: ************** Verifying Login test **************
+12/26/2020 11:39:50 AM: INFO: ************** Login test passed **************
