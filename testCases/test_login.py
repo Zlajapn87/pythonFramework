@@ -47,3 +47,5 @@ class Test_001_Login:
             self.driver.save_screenshot(".\\Screenshots\\" + "test_login.png")
             self.driver.close()
             self.logger.info("************** Login test failed **************")
+
+#End of testing
