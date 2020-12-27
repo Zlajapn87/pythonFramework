@@ -234,3 +234,10 @@
 12/27/2020 08:19:32 PM: INFO: ************** Home page title test passed **************
 12/27/2020 08:19:36 PM: INFO: ************** Verifying Login test **************
 12/27/2020 08:19:48 PM: INFO: ************** Login test passed **************
+12/27/2020 11:43:44 PM: INFO: ************** Test_001_Login **************
+12/27/2020 11:43:44 PM: INFO: ************** Verifying Home Page Title **************
+12/27/2020 11:43:50 PM: INFO: ************** Home page title test passed **************
+12/27/2020 11:43:54 PM: INFO: ************** Verifying Login test **************
+12/27/2020 11:44:05 PM: INFO: ************** Login test passed **************
+12/27/2020 11:44:09 PM: INFO: ************** Verifying Page title after successful login **************
+12/27/2020 11:44:15 PM: INFO: ************** Login was successful, page title is correct, test passed **************

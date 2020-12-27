@@ -50,6 +50,7 @@ class Test_001_Login:
 
     def test_login_page_title(self, setup):
         self.logger.info("************** Verifying Page title after successful login **************")
+        self.driver = setup
         self.driver.get(self.baseURL)
         self.lp = LoginPage(self.driver)
         self.lp.setUserName(self.username)
