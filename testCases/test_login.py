@@ -48,5 +48,23 @@ class Test_001_Login:
             self.driver.close()
             self.logger.info("************** Login test failed **************")
 
+    def test_login_page_title(self, setup):
+        self.logger.info("************** Verifying Page title after successful login **************")
+        self.driver.get(self.baseURL)
+        self.lp = LoginPage(self.driver)
+        self.lp.setUserName(self.username)
+        self.lp.setPassword((self.password))
+        self.lp.clickOnElement()
+        act_title = self.driver.title
+        if act_title == "Dashboard / nopCommerce administration1":
+            assert True
+            self.driver.close()
+            self.logger.info("************** Login was successful, page title is correct, test passed **************")
+        else:
+            assert False
+            self.driver.save_screenshot(".\\Screenshots\\" + "test_login.png")
+            self.driver.close()
+            self.logger.info("************** Login was successful, page title is incorrect, test failed **************")
+
 #End of testing
 #Comment on a Branch1
