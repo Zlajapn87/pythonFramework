@@ -48,5 +48,4 @@ class Test_001_Login:
             self.driver.close()
             self.logger.info("************** Login test failed **************")
 
-#End of testing
-#Comment on a Branch1
+
