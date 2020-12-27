@@ -56,7 +56,7 @@ class Test_001_Login:
         self.lp.setPassword((self.password))
         self.lp.clickOnElement()
         act_title = self.driver.title
-        if act_title == "Dashboard / nopCommerce administration1":
+        if act_title == "Dashboard / nopCommerce administration":
             assert True
             self.driver.close()
             self.logger.info("************** Login was successful, page title is correct, test passed **************")
